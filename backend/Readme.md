@@ -15,3 +15,6 @@ psql -U ice -h localhost -d ice
 CREATE EXTENSION postgis;
 CREATE EXTENSION postgis_topology;
 ```
+
+# para fazer as migrations:
+yarn sequelize migration:create --name=create-user
