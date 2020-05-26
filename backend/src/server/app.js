@@ -9,8 +9,13 @@ class App {
     constructor() {
         this.server = express();
 
+        this.middlewares();
         this.routes();
         this.exceptionHandler();
+    }
+
+    middlewares() {
+        this.server.use(express.json());
     }
 
     routes() {
