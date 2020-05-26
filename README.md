@@ -14,7 +14,7 @@ apt-get update && apt-get install postgis -y
 
 #then login into psql
 
-psql -U ice -h localhost -d ice
+psql -U admin -h localhost -d admin
 
 #then run:
 
