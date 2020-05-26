@@ -11,7 +11,7 @@ module.exports = {
                 type: Sequelize.STRING,
                 allowNull: false,
             },
-            position: {
+            boundaries: {
                 type: Sequelize.GEOMETRY,
                 allowNull: false,
             },
